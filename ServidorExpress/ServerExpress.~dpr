@@ -1,0 +1,13 @@
+program ServerExpress;
+
+uses
+  Forms,
+  UnitPrincipal in 'UnitPrincipal.pas' {FormExpress};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TFormExpress, FormExpress);
+  Application.Run;
+end.
